@@ -1,6 +1,6 @@
 {
   "name": "@nestjs-typescript/global-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NestJS global types module",
   "license": "UNLICENSED",
   "private": true,
