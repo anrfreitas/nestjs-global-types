@@ -1,0 +1,35 @@
+{
+  "name": "@nestjs-typescript/global-types",
+  "version": "1.0.0",
+  "description": "NestJS global types module",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "yarn build",
+    "husky-prepare": "husky install"
+  },
+  "dependencies": {
+    "@nestjs-prisma/database": "git+https://github.com/anrfreitas/nestjs-prisma-client.git#1.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "prettier": "^2.3.2",
+    "eslint": "^8.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.4"
+  },
+  "lint-staged": {
+    "src/**/*.{js,ts,jsx,tsx}": [
+      "eslint"
+    ]
+  }
+}
