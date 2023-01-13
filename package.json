@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsc",
     "postinstall": "yarn build",
-    "husky-prepare": "husky install"
+    "husky:prepare": "husky install"
   },
   "dependencies": {
     "@nestjs-prisma/database": "git+https://github.com/anrfreitas/nestjs-prisma-client.git#1.0.2",
