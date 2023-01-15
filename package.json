@@ -10,11 +10,10 @@
   "scripts": {
     "build": "tsc",
     "postinstall": "yarn build",
-    "husky:prepare": "husky install",
-    "external:refresh": "sh refresh.sh"
+    "husky:prepare": "husky install"
   },
   "dependencies": {
-    "@nestjs-prisma/database": "git+https://github.com/anrfreitas/nestjs-prisma-client.git#main",
+    "@nestjs-prisma/database": "git+https://github.com/anrfreitas/nestjs-prisma-client.git#^1.0.5",
     "@types/node": "^18.11.18",
     "ts-node": "^10.9.1",
     "typescript": "^4.4.4"
