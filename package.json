@@ -1,7 +1,7 @@
 {
   "name": "@nestjs-typescript/global-types",
   "author": "André Freitas",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NestJS global types module",
   "license": "UNLICENSED",
   "private": true,
