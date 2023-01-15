@@ -62,8 +62,8 @@
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
 "@nestjs-prisma/database@git+https://github.com/anrfreitas/nestjs-prisma-client.git#latest":
-  version "1.0.7"
-  resolved "git+https://github.com/anrfreitas/nestjs-prisma-client.git#a3bb77b64411168bd88eece2bf0b12b8bc60fc33"
+  version "1.0.8"
+  resolved "git+https://github.com/anrfreitas/nestjs-prisma-client.git#54e4d4679c81c1645c9fee0a62eaad585bf68717"
   dependencies:
     "@nestjs/common" "^8.3.1"
     "@prisma/client" "4.8.1"

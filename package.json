@@ -10,7 +10,8 @@
   "scripts": {
     "build": "tsc",
     "postinstall": "yarn build",
-    "husky:prepare": "husky install"
+    "husky:prepare": "husky install",
+    "upgrade:dependencies": "yarn upgrade --latest --pattern '@nestjs-*/*'"
   },
   "dependencies": {
     "@nestjs-prisma/database": "git+https://github.com/anrfreitas/nestjs-prisma-client.git#latest",
@@ -21,13 +22,13 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
-    "prettier": "^2.3.2",
     "eslint": "^8.2.0",
-    "eslint-plugin-import": "^2.26.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^7.0.4",
     "lint-staged": "^12.4.1",
+    "prettier": "^2.3.2",
     "rimraf": "^3.0.2"
   },
   "lint-staged": {
