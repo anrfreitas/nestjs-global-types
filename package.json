@@ -11,7 +11,7 @@
     "build": "tsc",
     "postinstall": "yarn build",
     "husky:prepare": "husky install",
-    "refresh": "sh refresh.sh"
+    "external:refresh": "sh refresh.sh"
   },
   "dependencies": {
     "@nestjs-prisma/database": "git+https://github.com/anrfreitas/nestjs-prisma-client.git#main",
