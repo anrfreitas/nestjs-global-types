@@ -61,9 +61,9 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@nestjs-prisma/database@git+https://github.com/anrfreitas/nestjs-prisma-client.git#1.0.2":
-  version "1.0.2"
-  resolved "git+https://github.com/anrfreitas/nestjs-prisma-client.git#cb80851e74d6a0504bc25fcf591c044c319ceb0c"
+"@nestjs-prisma/database@git+https://github.com/anrfreitas/nestjs-prisma-client.git#main":
+  version "1.0.4"
+  resolved "git+https://github.com/anrfreitas/nestjs-prisma-client.git#96602436047a5690806a9b16e77f6a4466d29be3"
   dependencies:
     "@nestjs/common" "^8.3.1"
     "@prisma/client" "4.8.1"
