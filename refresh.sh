@@ -2,3 +2,4 @@
 
 yarn cache clean
 rm -rf ./node_modules/@nestjs-*
+yarn install --check-files

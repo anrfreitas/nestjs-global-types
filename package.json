@@ -9,9 +9,9 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "preinstall": "sh preinstall.sh",
     "postinstall": "yarn build",
-    "husky:prepare": "husky install"
+    "husky:prepare": "husky install",
+    "refresh": "sh refresh.sh"
   },
   "dependencies": {
     "@nestjs-prisma/database": "git+https://github.com/anrfreitas/nestjs-prisma-client.git#main",
