@@ -9,6 +9,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "preinstall": "yarn cache clean",
     "postinstall": "yarn build",
     "husky:prepare": "husky install"
   },
